@@ -15,18 +15,18 @@
   <!-- header -->
   <header >
     <!-- <button class="header   "> -->
-      <img class="header__logo" src="./assets/auto_awesome_black_24dp 1.png" alt="Ícono de menú">
+    <img class="header__logo" src="./assets/auto_awesome_black_24dp 1.png" alt="Ícono de menú">
     <!-- </button>   -->
+    <h1 class="header__title">Tulio Bastidas</h1>
     <nav class="header__nav dropdown" aria-label="Navegación principal"> 
       <i class="fa-solid fa-bars" style="color: #ffcc00;"></i>
-      <h1 class="header__title">Tulio Bastidas</h1>
       <ul class="menu dropdown-content">
-        <li class="header__nav-item"><a class="header__nav-link" href="#about"></a>About me</a></li>
+        <li class="header__nav-item"><a class="header__nav-link" href="#about">About</a></li>
         <li class="header__nav-item"><a class="header__nav-link" href="#skill">Skills</a></li>
         <li class="header__nav-item"><a class="header__nav-link" href="#hobbies">Hobbies</a></li>
         <li class="header__nav-item"><a class="header__nav-link" href="#education">Education</a></li>
         <li class="header__nav-item"><a class="header__nav-link" href="#projects">Projects</a></li>
-        <li class="header__nav-item"><a class="header__nav-link" href="mailto:tuliobast@gmail.com">tuliobast@gmail.com</a></li>
+        <li class="header__nav-item contact"><a class="header__nav-link" href="#contact">tuliobast@gmail.com</a></li>
       </ul>
     </nav>
   </header>
@@ -232,53 +232,75 @@
       <h2 class="projects__title">Projects</h2>
       <div class="projects__container">
         <div class="project__card">
-          <figure>
-            <img src="" alt="" class="project__img">
-            <iframe src="https://tuliobast-simon-game.netlify.app/" height="200" width="300" title="Simon game"></iframe>
-          </figure>
-          <h3 class="project__title">Simon Game</h3>
-          <p class="project__description">This game was made for a web development bootcamp in the middle of this year. The technologies used were the following:</p>
-          <div class="tech__stack">
-            <img class="stack__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
-            <img class="stack__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
-            <img class="stack__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-          </div>
-          <div class="btns">
-            <a href="https://github.com/tuliobast/simon-game" class="btn repos">Repository</a>
-            <a href="https://tuliobast-simon-game.netlify.app" class="btn demo">Demo</a>
-          </div>
-        </div>
-        <div class="project__card">
-          <figure>
-            <img src="" alt="" class="project__img">
-          </figure>
-            <p class="project__text"></p>
-          <p class="project__text"></p>
-          <div class="btns">
-            <a href="" class="btn_repository"></a>
-            <a href="" class="btn_demo"></a>
+          <iframe src="https://tuliobast-simon-game.netlify.app/" height="300" width="100%" title="Simon game"></iframe>
+          <div class="project__info">
+            <h3 class="project__title">Simon Game</h3>
+            <p class="project__description">This game was made for a web development bootcamp in the middle of this year, 
+              to practice javascript. The technologies used it were the following:
+            </p>
+            <div class="tech__stack">
+              <img class="stack__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
+              <img class="stack__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
+              <img class="stack__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+            </div>
+            <div class="btns">
+              <a href="https://github.com/tuliobast/simon-game" target="_blank" class="btn repos">Repository</a>
+              <a href="https://tuliobast-simon-game.netlify.app" target="_blank" class="btn demo">Demo</a>
+            </div>
           </div>
         </div>
         <div class="project__card">
-          <figure>
-            <img src="" alt="" class="project__img">
-          </figure>
-            <p class="project__text"></p>
-          <p class="project__text"></p>
-          <div class="btns">
-            <a href="" class="btn_repository"></a>
-            <a href="" class="btn_demo"></a>
+          <iframe src="https://tuliobast.github.io/encrypt-decrypt/" height="300" width="100%" title="encrypt-decrypt web page"></iframe>
+          <div class="project__info">
+            <h3 class="project__title">Encrypt-Decrypt</h3>
+            <p class="project__description">This a web was made for encrypt and decrypt message for a challenge of Oracle ONE.
+              The technologies used it were the following:
+            </p>
+            <div class="tech__stack">
+              <img class="stack__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
+              <img class="stack__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
+              <img class="stack__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+            </div>
+              <div class="btns">
+                <a href="https://github.com/tuliobast/encrypt-decrypt" target="_blank" class="btn repos ">Repository</a>
+                <a href="https://tuliobast.github.io/encrypt-decrypt" target="_blank" class="btn demo">Demo</a>
+              </div>
           </div>
         </div>
         <div class="project__card">
-          <figure>
-            <img src="" alt="" class="project__img">
-          </figure>
-            <p class="project__text"></p>
-          <p class="project__text"></p>
-          <div class="btns">
-            <a href="" class="btn_repository"></a>
-            <a href="" class="btn_demo"></a>
+          <iframe src="https://tuliobast.github.io/tindog/" height="300" width="100%" title="encrypt-decrypt web page"></iframe>
+          <div class="project__info">
+            <h3 class="project__title">TinDog</h3>
+            <p class="project__description">This a landing page was made for a web development bootcamp in the middle of this year, 
+              to practice bootstrap components. The technologies used it were the following:
+            </p>
+            <div class="tech__stack">
+              <img class="stack__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
+              <img class="stack__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
+              <img class="stack__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg" />
+            </div>
+              <div class="btns">
+                <a href="https://github.com/tuliobast/tindog" target="_blank" class="btn repos ">Repository</a>
+                <a href="https://tuliobast.github.io/tindog/" target="_blank" class="btn demo">Demo</a>
+              </div>
+          </div>
+        </div>
+        <div class="project__card">
+          <iframe src="https://tuliobast.github.io/move-it/" height="300" width="100%" title="encrypt-decrypt web page"></iframe>
+          <div class="project__info">
+            <h3 class="project__title">Move It</h3>
+            <p class="project__description">This a landing page was made for a web development bootcamp in the middle of this year, 
+              to practice bootstrap components. The technologies used it were the following:
+            </p>
+            <div class="tech__stack">
+              <img class="stack__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
+              <img class="stack__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
+              <img class="stack__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg" />
+            </div>
+              <div class="btns">
+                <a href="https://github.com/tuliobast/move-it" target="_blank" class="btn repos ">Repository</a>
+                <a href="https://tuliobast.github.io/move-it/" target="_blank" class="btn demo">Demo</a>
+              </div>
           </div>
         </div>
         <div class="project__card">
@@ -326,18 +348,40 @@
           </div>
         </div>
     </section>
-    <section class="contacto" id="contacto">
-      <h2 class="contacto__titulo">Contacto</h2>
-      <form class="contacto__formulario">
-          <input class="contacto__campo" type="text" placeholder="Nombre">
-          <input class="contacto__campo" type="email" placeholder="Correo Electrónico">
-          <textarea class="contacto__campo contacto__campo--textarea" placeholder="Mensaje"></textarea>
-          <button class="contacto__boton" type="submit">Enviar</button>
-      </form>
+    <section id="contact">
+      <h2 class="contact__title">Contact</h2>
+      <p class="contact__description">¿Do you want to contact me?</p>
+      <p class="contact__description">Please fill out the form below and I will get back to you as soon as possible.</p>
+      <form action="https://formsubmit.co/tuliobast@gmail.com" id="contactForm" class="contact-form" aria-label="Contact form" method="POST" novalidate>
+        <div class="contact-form__group">
+            <label class="contact-form__label" for="name">Name</label>
+            <input class="contact-form__input" type="text" id="name" name="name" required aria-required="true" maxlength="50">
+            <span class="contact-form__error" id="name-error"></span>
+        </div>
+        <div class="contact-form__group">
+            <label class="contact-form__label" for="email">E-mail</label>
+            <input class="contact-form__input" type="email" id="email" name="email" required aria-required="true">
+            <span class="contact-form__error" id="email-error"></span>
+        </div>
+        <div class="contact-form__group">
+            <label class="contact-form__label" for="subject">Subject</label>
+            <input class="contact-form__input" type="text" id="subject" name="subject" required aria-required="true" maxlength="50">
+            <span class="contact-form__error" id="subject-error"></span>
+        </div>
+        <div class="contact-form__group">
+            <label class="contact-form__label" for="message">Message</label>
+            <textarea class="contact-form__input contact-form__input--textarea" id="message" name="message" required aria-required="true" maxlength="300"></textarea>
+            <span class="contact-form__error" id="message-error"></span>
+        </div>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+        <button class="contact-form__submit" type="submit" id="submitBtn" disabled aria-disabled="true">Submit</button>
+    </form>
   </section>
   </main>
   <footer>
-
+    <p>Powered by Tulio Bastidas© </p>
+    <p id="year"></p>
   </footer>
 </body>
 </html>
